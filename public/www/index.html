@@ -98,8 +98,8 @@
         }
         </script>
         <script>try { if (+sessionStorage.getItem('pest-scroll') > 100) document.documentElement.classList.add('no-intro'); } catch (e) {}</script>
-      <script type="module" crossorigin src="/www/index.ce23768d.js"></script>
-      <link rel="stylesheet" href="/www/index-80d91434.css">
+      <script type="module" crossorigin src="/www/index.208c84e2.js"></script>
+      <link rel="stylesheet" href="/www/index-b9e95284.css">
     </head>
 
     <body x-data="{ mobileMenuIsOpen: false }" class="font-synthesis-none overflow-x-clip bg-[var(--theme-bg)] font-sans text-[var(--theme-fg)] antialiased selection:bg-[var(--theme-accent-fill)] selection:text-[var(--theme-accent-contrast)]">
@@ -371,11 +371,12 @@
                         { alt: 'Redberry', href: 'https://redberry.international/laravel-development/?utm_source=pest&utm_medium=banner&utm_campaign=pest_sponsorship', src: '/www/assets/sponsors/redberry.png', h: 'h-6', tier: 1 },
                         { alt: 'Typesense', href: 'https://typesense.org/?ref=nunomaduro', src: '/www/assets/sponsors/typesense.svg', h: 'h-6', tier: 1 },
                         { alt: 'Pixel', href: 'https://wearepixel.com.au/?ref=nunomaduro', src: '/www/assets/sponsors/pixel.svg', h: 'h-6', tier: 1 },
-                        { alt: 'TestMu AI', href: 'https://www.testmuai.com/?ref=nunomaduro', src: '/www/assets/sponsors/testmu.svg', h: 'h-7', tier: 2 },
+                        { alt: 'NativePHP', href: 'https://nativephp.com/?ref=nunomaduro', src: '/www/assets/sponsors/nativephp.svg', h: 'h-6', tier: 1 },
+                        { alt: 'TestMu AI', href: 'https://www.testmuai.com/?utm_medium=sponsor&amp;utm_source=pest', src: '/www/assets/sponsors/testmu.svg', h: 'h-5', tier: 2 },
                         { alt: 'Zapiet', href: 'https://zapiet.com/?ref=nunomaduro', src: '/www/assets/sponsors/zapiet.svg', h: 'h-6', tier: 2 },
                         { alt: 'LoadForge', href: 'https://loadforge.com/?ref=nunomaduro', src: '/www/assets/sponsors/loadforge.svg', h: 'h-5', tier: 2 },
                         { alt: 'Route4Me', href: 'https://route4me.com/?ref=nunomaduro', src: '/www/assets/sponsors/route4me.svg', h: 'h-6', tier: 2 },
-                        { alt: 'Nerdify', href: 'https://getnerdify.com/?ref=nunomaduro', src: '/www/assets/sponsors/nerdify.png', h: 'h-9', tier: 2 }
+                        { alt: 'Pushery', href: 'https://www.pushery.com/?ref=nunomaduro', src: '/www/assets/sponsors/pushery.svg', h: 'h-5', tier: 2 }
                     ], sponsors: [], init() { this.sponsors = [...this.shuffle(this.all.filter(s => s.tier === 1)), ...this.shuffle(this.all.filter(s => s.tier === 2))] } }">
                         <div class="animate-marquee flex w-max hover:[animation-play-state:paused] motion-reduce:animate-none">
                             <template x-for="sponsor in sponsors" :key="sponsor.alt">
@@ -854,6 +855,7 @@
                         <li><a class="text-zinc-400 underline-offset-4 transition-colors hover:text-white hover:underline" href="https://bentonow.com/?ref=nunomaduro" target="_blank">Bento</a></li>
                         <li><a class="text-zinc-400 underline-offset-4 transition-colors hover:text-white hover:underline" href="https://redberry.international/laravel-development/?utm_source=pest&utm_medium=banner&utm_campaign=pest_sponsorship" target="_blank">Redberry</a></li>
                         <li><a class="text-zinc-400 underline-offset-4 transition-colors hover:text-white hover:underline" href="https://typesense.org/?ref=nunomaduro" target="_blank">Typesense</a></li>
+                        <li><a class="text-zinc-400 underline-offset-4 transition-colors hover:text-white hover:underline" href="https://nativephp.com/?ref=nunomaduro" target="_blank">NativePHP</a></li>
                     </ul>
                 </div>
                 </nav>
